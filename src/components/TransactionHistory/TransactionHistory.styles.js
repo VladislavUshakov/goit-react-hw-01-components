@@ -29,7 +29,7 @@ export const TransactionTable = styled.table`
       background-color: ${({ theme }) => theme.colors.table.rowBg};
     }
 
-    tr:nth-child(odd) {
+    tr:nth-of-type(odd) {
       background-color: ${({ theme }) => theme.colors.white};
     }
   }
